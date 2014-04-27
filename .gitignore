@@ -1,0 +1,12 @@
+*.xcuserstate
+*.xcscheme
+*.xcbkptlist
+**/xcuserdata/*
+**/build
+**/src
+**/include
+**/framework
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+stino.settings

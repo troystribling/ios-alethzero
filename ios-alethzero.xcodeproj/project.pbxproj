@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		059F3082190D6D8C000CDD0C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 059F3081190D6D8C000CDD0C /* Foundation.framework */; };
+		059F3084190D6D8C000CDD0C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 059F3083190D6D8C000CDD0C /* CoreGraphics.framework */; };
+		059F3086190D6D8C000CDD0C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 059F3085190D6D8C000CDD0C /* UIKit.framework */; };
+		059F308C190D6D8C000CDD0C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 059F308A190D6D8C000CDD0C /* InfoPlist.strings */; };
+		059F308E190D6D8C000CDD0C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 059F308D190D6D8C000CDD0C /* main.m */; };
+		059F3092190D6D8C000CDD0C /* AlethZeroAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 059F3091190D6D8C000CDD0C /* AlethZeroAppDelegate.m */; };
+		059F3095190D6D8C000CDD0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 059F3093190D6D8C000CDD0C /* Main.storyboard */; };
+		059F3098190D6D8C000CDD0C /* AlethZeroFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 059F3097190D6D8C000CDD0C /* AlethZeroFirstViewController.m */; };
+		059F309B190D6D8C000CDD0C /* AlethZeroSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 059F309A190D6D8C000CDD0C /* AlethZeroSecondViewController.m */; };
+		059F309D190D6D8C000CDD0C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 059F309C190D6D8C000CDD0C /* Images.xcassets */; };
+		059F30A4190D6D8C000CDD0C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 059F30A3190D6D8C000CDD0C /* XCTest.framework */; };
+		059F30A5190D6D8C000CDD0C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 059F3081190D6D8C000CDD0C /* Foundation.framework */; };
+		059F30A6190D6D8C000CDD0C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 059F3085190D6D8C000CDD0C /* UIKit.framework */; };
+		059F30AE190D6D8C000CDD0C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 059F30AC190D6D8C000CDD0C /* InfoPlist.strings */; };
+		059F30B0190D6D8C000CDD0C /* ios_alethzeroTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 059F30AF190D6D8C000CDD0C /* ios_alethzeroTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		059F30A7190D6D8C000CDD0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 059F3076190D6D8C000CDD0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 059F307D190D6D8C000CDD0C;
+			remoteInfo = "ios-alethzero";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		059F307E190D6D8C000CDD0C /* ios-alethzero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-alethzero.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		059F3081190D6D8C000CDD0C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		059F3083190D6D8C000CDD0C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		059F3085190D6D8C000CDD0C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		059F3089190D6D8C000CDD0C /* ios-alethzero-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ios-alethzero-Info.plist"; sourceTree = "<group>"; };
+		059F308B190D6D8C000CDD0C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		059F308D190D6D8C000CDD0C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		059F308F190D6D8C000CDD0C /* ios-alethzero-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ios-alethzero-Prefix.pch"; sourceTree = "<group>"; };
+		059F3090190D6D8C000CDD0C /* AlethZeroAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlethZeroAppDelegate.h; sourceTree = "<group>"; };
+		059F3091190D6D8C000CDD0C /* AlethZeroAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlethZeroAppDelegate.m; sourceTree = "<group>"; };
+		059F3094190D6D8C000CDD0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		059F3096190D6D8C000CDD0C /* AlethZeroFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlethZeroFirstViewController.h; sourceTree = "<group>"; };
+		059F3097190D6D8C000CDD0C /* AlethZeroFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlethZeroFirstViewController.m; sourceTree = "<group>"; };
+		059F3099190D6D8C000CDD0C /* AlethZeroSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlethZeroSecondViewController.h; sourceTree = "<group>"; };
+		059F309A190D6D8C000CDD0C /* AlethZeroSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlethZeroSecondViewController.m; sourceTree = "<group>"; };
+		059F309C190D6D8C000CDD0C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		059F30A2190D6D8C000CDD0C /* ios-alethzeroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-alethzeroTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		059F30A3190D6D8C000CDD0C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		059F30AB190D6D8C000CDD0C /* ios-alethzeroTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ios-alethzeroTests-Info.plist"; sourceTree = "<group>"; };
+		059F30AD190D6D8C000CDD0C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		059F30AF190D6D8C000CDD0C /* ios_alethzeroTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ios_alethzeroTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		059F307B190D6D8C000CDD0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				059F3084190D6D8C000CDD0C /* CoreGraphics.framework in Frameworks */,
+				059F3086190D6D8C000CDD0C /* UIKit.framework in Frameworks */,
+				059F3082190D6D8C000CDD0C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		059F309F190D6D8C000CDD0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				059F30A4190D6D8C000CDD0C /* XCTest.framework in Frameworks */,
+				059F30A6190D6D8C000CDD0C /* UIKit.framework in Frameworks */,
+				059F30A5190D6D8C000CDD0C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		059F3075190D6D8C000CDD0C = {
+			isa = PBXGroup;
+			children = (
+				059F3087190D6D8C000CDD0C /* ios-alethzero */,
+				059F30A9190D6D8C000CDD0C /* ios-alethzeroTests */,
+				059F3080190D6D8C000CDD0C /* Frameworks */,
+				059F307F190D6D8C000CDD0C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		059F307F190D6D8C000CDD0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				059F307E190D6D8C000CDD0C /* ios-alethzero.app */,
+				059F30A2190D6D8C000CDD0C /* ios-alethzeroTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		059F3080190D6D8C000CDD0C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				059F3081190D6D8C000CDD0C /* Foundation.framework */,
+				059F3083190D6D8C000CDD0C /* CoreGraphics.framework */,
+				059F3085190D6D8C000CDD0C /* UIKit.framework */,
+				059F30A3190D6D8C000CDD0C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		059F3087190D6D8C000CDD0C /* ios-alethzero */ = {
+			isa = PBXGroup;
+			children = (
+				059F3090190D6D8C000CDD0C /* AlethZeroAppDelegate.h */,
+				059F3091190D6D8C000CDD0C /* AlethZeroAppDelegate.m */,
+				059F3093190D6D8C000CDD0C /* Main.storyboard */,
+				059F3096190D6D8C000CDD0C /* AlethZeroFirstViewController.h */,
+				059F3097190D6D8C000CDD0C /* AlethZeroFirstViewController.m */,
+				059F3099190D6D8C000CDD0C /* AlethZeroSecondViewController.h */,
+				059F309A190D6D8C000CDD0C /* AlethZeroSecondViewController.m */,
+				059F309C190D6D8C000CDD0C /* Images.xcassets */,
+				059F3088190D6D8C000CDD0C /* Supporting Files */,
+			);
+			path = "ios-alethzero";
+			sourceTree = "<group>";
+		};
+		059F3088190D6D8C000CDD0C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				059F3089190D6D8C000CDD0C /* ios-alethzero-Info.plist */,
+				059F308A190D6D8C000CDD0C /* InfoPlist.strings */,
+				059F308D190D6D8C000CDD0C /* main.m */,
+				059F308F190D6D8C000CDD0C /* ios-alethzero-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		059F30A9190D6D8C000CDD0C /* ios-alethzeroTests */ = {
+			isa = PBXGroup;
+			children = (
+				059F30AF190D6D8C000CDD0C /* ios_alethzeroTests.m */,
+				059F30AA190D6D8C000CDD0C /* Supporting Files */,
+			);
+			path = "ios-alethzeroTests";
+			sourceTree = "<group>";
+		};
+		059F30AA190D6D8C000CDD0C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				059F30AB190D6D8C000CDD0C /* ios-alethzeroTests-Info.plist */,
+				059F30AC190D6D8C000CDD0C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		059F307D190D6D8C000CDD0C /* ios-alethzero */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 059F30B3190D6D8C000CDD0C /* Build configuration list for PBXNativeTarget "ios-alethzero" */;
+			buildPhases = (
+				059F307A190D6D8C000CDD0C /* Sources */,
+				059F307B190D6D8C000CDD0C /* Frameworks */,
+				059F307C190D6D8C000CDD0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ios-alethzero";
+			productName = "ios-alethzero";
+			productReference = 059F307E190D6D8C000CDD0C /* ios-alethzero.app */;
+			productType = "com.apple.product-type.application";
+		};
+		059F30A1190D6D8C000CDD0C /* ios-alethzeroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 059F30B6190D6D8C000CDD0C /* Build configuration list for PBXNativeTarget "ios-alethzeroTests" */;
+			buildPhases = (
+				059F309E190D6D8C000CDD0C /* Sources */,
+				059F309F190D6D8C000CDD0C /* Frameworks */,
+				059F30A0190D6D8C000CDD0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				059F30A8190D6D8C000CDD0C /* PBXTargetDependency */,
+			);
+			name = "ios-alethzeroTests";
+			productName = "ios-alethzeroTests";
+			productReference = 059F30A2190D6D8C000CDD0C /* ios-alethzeroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		059F3076190D6D8C000CDD0C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AlethZero;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = gnos.us;
+				TargetAttributes = {
+					059F30A1190D6D8C000CDD0C = {
+						TestTargetID = 059F307D190D6D8C000CDD0C;
+					};
+				};
+			};
+			buildConfigurationList = 059F3079190D6D8C000CDD0C /* Build configuration list for PBXProject "ios-alethzero" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 059F3075190D6D8C000CDD0C;
+			productRefGroup = 059F307F190D6D8C000CDD0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				059F307D190D6D8C000CDD0C /* ios-alethzero */,
+				059F30A1190D6D8C000CDD0C /* ios-alethzeroTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		059F307C190D6D8C000CDD0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				059F309D190D6D8C000CDD0C /* Images.xcassets in Resources */,
+				059F308C190D6D8C000CDD0C /* InfoPlist.strings in Resources */,
+				059F3095190D6D8C000CDD0C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		059F30A0190D6D8C000CDD0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				059F30AE190D6D8C000CDD0C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		059F307A190D6D8C000CDD0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				059F308E190D6D8C000CDD0C /* main.m in Sources */,
+				059F3098190D6D8C000CDD0C /* AlethZeroFirstViewController.m in Sources */,
+				059F3092190D6D8C000CDD0C /* AlethZeroAppDelegate.m in Sources */,
+				059F309B190D6D8C000CDD0C /* AlethZeroSecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		059F309E190D6D8C000CDD0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				059F30B0190D6D8C000CDD0C /* ios_alethzeroTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		059F30A8190D6D8C000CDD0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 059F307D190D6D8C000CDD0C /* ios-alethzero */;
+			targetProxy = 059F30A7190D6D8C000CDD0C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		059F308A190D6D8C000CDD0C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				059F308B190D6D8C000CDD0C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		059F3093190D6D8C000CDD0C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				059F3094190D6D8C000CDD0C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		059F30AC190D6D8C000CDD0C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				059F30AD190D6D8C000CDD0C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		059F30B1190D6D8C000CDD0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		059F30B2190D6D8C000CDD0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		059F30B4190D6D8C000CDD0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ios-alethzero/ios-alethzero-Prefix.pch";
+				INFOPLIST_FILE = "ios-alethzero/ios-alethzero-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		059F30B5190D6D8C000CDD0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ios-alethzero/ios-alethzero-Prefix.pch";
+				INFOPLIST_FILE = "ios-alethzero/ios-alethzero-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		059F30B7190D6D8C000CDD0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ios-alethzero.app/ios-alethzero";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ios-alethzero/ios-alethzero-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ios-alethzeroTests/ios-alethzeroTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		059F30B8190D6D8C000CDD0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ios-alethzero.app/ios-alethzero";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ios-alethzero/ios-alethzero-Prefix.pch";
+				INFOPLIST_FILE = "ios-alethzeroTests/ios-alethzeroTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		059F3079190D6D8C000CDD0C /* Build configuration list for PBXProject "ios-alethzero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				059F30B1190D6D8C000CDD0C /* Debug */,
+				059F30B2190D6D8C000CDD0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		059F30B3190D6D8C000CDD0C /* Build configuration list for PBXNativeTarget "ios-alethzero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				059F30B4190D6D8C000CDD0C /* Debug */,
+				059F30B5190D6D8C000CDD0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		059F30B6190D6D8C000CDD0C /* Build configuration list for PBXNativeTarget "ios-alethzeroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				059F30B7190D6D8C000CDD0C /* Debug */,
+				059F30B8190D6D8C000CDD0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 059F3076190D6D8C000CDD0C /* Project object */;
+}
