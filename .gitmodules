@@ -1,0 +1,3 @@
+[submodule "External/ethereum"]
+	path = External/ethereum
+	url = https://github.com/troystribling/ios-etherium
