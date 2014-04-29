@@ -14,14 +14,13 @@
 		059F308E190D6D8C000CDD0C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 059F308D190D6D8C000CDD0C /* main.m */; };
 		059F3092190D6D8C000CDD0C /* AlethZeroAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 059F3091190D6D8C000CDD0C /* AlethZeroAppDelegate.m */; };
 		059F3095190D6D8C000CDD0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 059F3093190D6D8C000CDD0C /* Main.storyboard */; };
-		059F3098190D6D8C000CDD0C /* AlethZeroFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 059F3097190D6D8C000CDD0C /* AlethZeroFirstViewController.m */; };
-		059F309B190D6D8C000CDD0C /* AlethZeroSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 059F309A190D6D8C000CDD0C /* AlethZeroSecondViewController.m */; };
 		059F309D190D6D8C000CDD0C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 059F309C190D6D8C000CDD0C /* Images.xcassets */; };
 		059F30A4190D6D8C000CDD0C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 059F30A3190D6D8C000CDD0C /* XCTest.framework */; };
 		059F30A5190D6D8C000CDD0C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 059F3081190D6D8C000CDD0C /* Foundation.framework */; };
 		059F30A6190D6D8C000CDD0C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 059F3085190D6D8C000CDD0C /* UIKit.framework */; };
 		059F30AE190D6D8C000CDD0C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 059F30AC190D6D8C000CDD0C /* InfoPlist.strings */; };
 		059F30B0190D6D8C000CDD0C /* ios_alethzeroTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 059F30AF190D6D8C000CDD0C /* ios_alethzeroTests.m */; };
+		059F30BB190F4911000CDD0C /* AlethZeroNetworkTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 059F30BA190F4911000CDD0C /* AlethZeroNetworkTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,16 +45,14 @@
 		059F3090190D6D8C000CDD0C /* AlethZeroAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlethZeroAppDelegate.h; sourceTree = "<group>"; };
 		059F3091190D6D8C000CDD0C /* AlethZeroAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlethZeroAppDelegate.m; sourceTree = "<group>"; };
 		059F3094190D6D8C000CDD0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		059F3096190D6D8C000CDD0C /* AlethZeroFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlethZeroFirstViewController.h; sourceTree = "<group>"; };
-		059F3097190D6D8C000CDD0C /* AlethZeroFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlethZeroFirstViewController.m; sourceTree = "<group>"; };
-		059F3099190D6D8C000CDD0C /* AlethZeroSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlethZeroSecondViewController.h; sourceTree = "<group>"; };
-		059F309A190D6D8C000CDD0C /* AlethZeroSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlethZeroSecondViewController.m; sourceTree = "<group>"; };
 		059F309C190D6D8C000CDD0C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		059F30A2190D6D8C000CDD0C /* ios-alethzeroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-alethzeroTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		059F30A3190D6D8C000CDD0C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		059F30AB190D6D8C000CDD0C /* ios-alethzeroTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ios-alethzeroTests-Info.plist"; sourceTree = "<group>"; };
 		059F30AD190D6D8C000CDD0C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		059F30AF190D6D8C000CDD0C /* ios_alethzeroTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ios_alethzeroTests.m; sourceTree = "<group>"; };
+		059F30B9190F4911000CDD0C /* AlethZeroNetworkTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlethZeroNetworkTableViewController.h; sourceTree = "<group>"; };
+		059F30BA190F4911000CDD0C /* AlethZeroNetworkTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlethZeroNetworkTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,12 +114,10 @@
 			children = (
 				059F3090190D6D8C000CDD0C /* AlethZeroAppDelegate.h */,
 				059F3091190D6D8C000CDD0C /* AlethZeroAppDelegate.m */,
-				059F3093190D6D8C000CDD0C /* Main.storyboard */,
-				059F3096190D6D8C000CDD0C /* AlethZeroFirstViewController.h */,
-				059F3097190D6D8C000CDD0C /* AlethZeroFirstViewController.m */,
-				059F3099190D6D8C000CDD0C /* AlethZeroSecondViewController.h */,
-				059F309A190D6D8C000CDD0C /* AlethZeroSecondViewController.m */,
+				059F30B9190F4911000CDD0C /* AlethZeroNetworkTableViewController.h */,
+				059F30BA190F4911000CDD0C /* AlethZeroNetworkTableViewController.m */,
 				059F309C190D6D8C000CDD0C /* Images.xcassets */,
+				059F3093190D6D8C000CDD0C /* Main.storyboard */,
 				059F3088190D6D8C000CDD0C /* Supporting Files */,
 			);
 			path = "ios-alethzero";
@@ -256,9 +251,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				059F308E190D6D8C000CDD0C /* main.m in Sources */,
-				059F3098190D6D8C000CDD0C /* AlethZeroFirstViewController.m in Sources */,
+				059F30BB190F4911000CDD0C /* AlethZeroNetworkTableViewController.m in Sources */,
 				059F3092190D6D8C000CDD0C /* AlethZeroAppDelegate.m in Sources */,
-				059F309B190D6D8C000CDD0C /* AlethZeroSecondViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
