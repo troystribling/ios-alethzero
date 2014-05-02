@@ -1,0 +1,3 @@
+[submodule "External/etherum"]
+	path = External/etherum
+	url = git@github.com:troystribling/ios-etherium.git
