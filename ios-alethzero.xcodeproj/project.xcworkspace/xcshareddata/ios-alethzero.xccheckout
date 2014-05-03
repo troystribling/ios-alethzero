@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1AEA4492-1154-4EF8-AF9C-D5A9CA9577DB</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ios-alethzero</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F4A081AB-57F2-4951-A8AB-8C8115433D52</key>
+		<string>ssh://github.com/troystribling/ios-alethzero.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ios-alethzero.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F4A081AB-57F2-4951-A8AB-8C8115433D52</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/troystribling/ios-alethzero.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F4A081AB-57F2-4951-A8AB-8C8115433D52</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F4A081AB-57F2-4951-A8AB-8C8115433D52</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ios-alethzero</string>
+		</dict>
+	</array>
+</dict>
+</plist>

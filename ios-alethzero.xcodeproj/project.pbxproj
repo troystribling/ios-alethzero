@@ -21,6 +21,12 @@
 		059F30AE190D6D8C000CDD0C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 059F30AC190D6D8C000CDD0C /* InfoPlist.strings */; };
 		059F30B0190D6D8C000CDD0C /* ios_alethzeroTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 059F30AF190D6D8C000CDD0C /* ios_alethzeroTests.m */; };
 		059F30BB190F4911000CDD0C /* AlethZeroNetworkTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 059F30BA190F4911000CDD0C /* AlethZeroNetworkTableViewController.m */; };
+		05BF058D1914ACA900E45ED8 /* boost.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05BF058C1914ACA900E45ED8 /* boost.framework */; };
+		05BF058F1914ACB800E45ED8 /* cryptopp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05BF058E1914ACB800E45ED8 /* cryptopp.framework */; };
+		05BF05911914ACC900E45ED8 /* gmp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05BF05901914ACC900E45ED8 /* gmp.framework */; };
+		05BF05931914ACF800E45ED8 /* leveldb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05BF05921914ACF800E45ED8 /* leveldb.framework */; };
+		05BF05951914AD0B00E45ED8 /* miniupnpc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05BF05941914AD0B00E45ED8 /* miniupnpc.framework */; };
+		05BF05971914AD1B00E45ED8 /* secp256k1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05BF05961914AD1B00E45ED8 /* secp256k1.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +36,48 @@
 			proxyType = 1;
 			remoteGlobalIDString = 059F307D190D6D8C000CDD0C;
 			remoteInfo = "ios-alethzero";
+		};
+		05BF057319148CCA00E45ED8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05BF056D19148CC900E45ED8 /* ethereum.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 059F3293190FF67D000CDD0C;
+			remoteInfo = ethereum;
+		};
+		05BF057519148CCA00E45ED8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05BF056D19148CC900E45ED8 /* ethereum.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 059F32A3190FF67D000CDD0C;
+			remoteInfo = ethereumTests;
+		};
+		05BF057C19148CE000E45ED8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05BF057719148CE000E45ED8 /* ethcore.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 059F3234190FF572000CDD0C;
+			remoteInfo = ethcore;
+		};
+		05BF057E19148CE000E45ED8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05BF057719148CE000E45ED8 /* ethcore.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 059F3244190FF572000CDD0C;
+			remoteInfo = ethcoreTests;
+		};
+		05BF058019148CED00E45ED8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05BF057719148CE000E45ED8 /* ethcore.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 059F3233190FF572000CDD0C;
+			remoteInfo = ethcore;
+		};
+		05BF058219148CF200E45ED8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05BF056D19148CC900E45ED8 /* ethereum.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 059F3292190FF67D000CDD0C;
+			remoteInfo = ethereum;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -53,6 +101,14 @@
 		059F30AF190D6D8C000CDD0C /* ios_alethzeroTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ios_alethzeroTests.m; sourceTree = "<group>"; };
 		059F30B9190F4911000CDD0C /* AlethZeroNetworkTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlethZeroNetworkTableViewController.h; sourceTree = "<group>"; };
 		059F30BA190F4911000CDD0C /* AlethZeroNetworkTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlethZeroNetworkTableViewController.m; sourceTree = "<group>"; };
+		05BF056D19148CC900E45ED8 /* ethereum.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ethereum.xcodeproj; path = External/etherum/Xcode/ethereum/ethereum.xcodeproj; sourceTree = "<group>"; };
+		05BF057719148CE000E45ED8 /* ethcore.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ethcore.xcodeproj; path = External/etherum/Xcode/ethcore/ethcore.xcodeproj; sourceTree = "<group>"; };
+		05BF058C1914ACA900E45ED8 /* boost.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = boost.framework; path = "External/etherum/ios-boost/framework/boost.framework"; sourceTree = "<group>"; };
+		05BF058E1914ACB800E45ED8 /* cryptopp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = cryptopp.framework; path = "External/etherum/ios-cryptopp/framework/cryptopp.framework"; sourceTree = "<group>"; };
+		05BF05901914ACC900E45ED8 /* gmp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = gmp.framework; path = "External/etherum/ios-gmp/framework/gmp.framework"; sourceTree = "<group>"; };
+		05BF05921914ACF800E45ED8 /* leveldb.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = leveldb.framework; path = "External/etherum/ios-leveldb/framework/leveldb.framework"; sourceTree = "<group>"; };
+		05BF05941914AD0B00E45ED8 /* miniupnpc.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = miniupnpc.framework; path = "External/etherum/ios-miniupnpc/framework/miniupnpc.framework"; sourceTree = "<group>"; };
+		05BF05961914AD1B00E45ED8 /* secp256k1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = secp256k1.framework; path = "External/etherum/ios-secp256k1/framework/secp256k1.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +116,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05BF05971914AD1B00E45ED8 /* secp256k1.framework in Frameworks */,
+				05BF05951914AD0B00E45ED8 /* miniupnpc.framework in Frameworks */,
+				05BF05931914ACF800E45ED8 /* leveldb.framework in Frameworks */,
+				05BF05911914ACC900E45ED8 /* gmp.framework in Frameworks */,
+				05BF058F1914ACB800E45ED8 /* cryptopp.framework in Frameworks */,
+				05BF058D1914ACA900E45ED8 /* boost.framework in Frameworks */,
 				059F3084190D6D8C000CDD0C /* CoreGraphics.framework in Frameworks */,
 				059F3086190D6D8C000CDD0C /* UIKit.framework in Frameworks */,
 				059F3082190D6D8C000CDD0C /* Foundation.framework in Frameworks */,
@@ -82,6 +144,8 @@
 		059F3075190D6D8C000CDD0C = {
 			isa = PBXGroup;
 			children = (
+				05BF057719148CE000E45ED8 /* ethcore.xcodeproj */,
+				05BF056D19148CC900E45ED8 /* ethereum.xcodeproj */,
 				059F3087190D6D8C000CDD0C /* ios-alethzero */,
 				059F30A9190D6D8C000CDD0C /* ios-alethzeroTests */,
 				059F3080190D6D8C000CDD0C /* Frameworks */,
@@ -101,6 +165,12 @@
 		059F3080190D6D8C000CDD0C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				05BF05961914AD1B00E45ED8 /* secp256k1.framework */,
+				05BF05941914AD0B00E45ED8 /* miniupnpc.framework */,
+				05BF05921914ACF800E45ED8 /* leveldb.framework */,
+				05BF05901914ACC900E45ED8 /* gmp.framework */,
+				05BF058E1914ACB800E45ED8 /* cryptopp.framework */,
+				05BF058C1914ACA900E45ED8 /* boost.framework */,
 				059F3081190D6D8C000CDD0C /* Foundation.framework */,
 				059F3083190D6D8C000CDD0C /* CoreGraphics.framework */,
 				059F3085190D6D8C000CDD0C /* UIKit.framework */,
@@ -152,6 +222,24 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		05BF056E19148CC900E45ED8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05BF057419148CCA00E45ED8 /* libethereum.a */,
+				05BF057619148CCA00E45ED8 /* ethereumTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05BF057819148CE000E45ED8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05BF057D19148CE000E45ED8 /* libethcore.a */,
+				05BF057F19148CE000E45ED8 /* ethcoreTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -166,6 +254,8 @@
 			buildRules = (
 			);
 			dependencies = (
+				05BF058319148CF200E45ED8 /* PBXTargetDependency */,
+				05BF058119148CED00E45ED8 /* PBXTargetDependency */,
 			);
 			name = "ios-alethzero";
 			productName = "ios-alethzero";
@@ -216,6 +306,16 @@
 			mainGroup = 059F3075190D6D8C000CDD0C;
 			productRefGroup = 059F307F190D6D8C000CDD0C /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 05BF057819148CE000E45ED8 /* Products */;
+					ProjectRef = 05BF057719148CE000E45ED8 /* ethcore.xcodeproj */;
+				},
+				{
+					ProductGroup = 05BF056E19148CC900E45ED8 /* Products */;
+					ProjectRef = 05BF056D19148CC900E45ED8 /* ethereum.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				059F307D190D6D8C000CDD0C /* ios-alethzero */,
@@ -223,6 +323,37 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		05BF057419148CCA00E45ED8 /* libethereum.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libethereum.a;
+			remoteRef = 05BF057319148CCA00E45ED8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		05BF057619148CCA00E45ED8 /* ethereumTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ethereumTests.xctest;
+			remoteRef = 05BF057519148CCA00E45ED8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		05BF057D19148CE000E45ED8 /* libethcore.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libethcore.a;
+			remoteRef = 05BF057C19148CE000E45ED8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		05BF057F19148CE000E45ED8 /* ethcoreTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ethcoreTests.xctest;
+			remoteRef = 05BF057E19148CE000E45ED8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		059F307C190D6D8C000CDD0C /* Resources */ = {
@@ -271,6 +402,16 @@
 			isa = PBXTargetDependency;
 			target = 059F307D190D6D8C000CDD0C /* ios-alethzero */;
 			targetProxy = 059F30A7190D6D8C000CDD0C /* PBXContainerItemProxy */;
+		};
+		05BF058119148CED00E45ED8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ethcore;
+			targetProxy = 05BF058019148CED00E45ED8 /* PBXContainerItemProxy */;
+		};
+		05BF058319148CF200E45ED8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ethereum;
+			targetProxy = 05BF058219148CF200E45ED8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -377,9 +518,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/External/etherum/ios-boost/framework",
+					"$(PROJECT_DIR)/External/etherum/ios-cryptopp/framework",
+					"$(PROJECT_DIR)/External/etherum/ios-gmp/framework",
+					"$(PROJECT_DIR)/External/etherum/ios-leveldb/framework",
+					"$(PROJECT_DIR)/External/etherum/ios-miniupnpc/framework",
+					"$(PROJECT_DIR)/External/etherum/ios-secp256k1/framework",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ios-alethzero/ios-alethzero-Prefix.pch";
 				INFOPLIST_FILE = "ios-alethzero/ios-alethzero-Info.plist";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
@@ -391,6 +542,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/External/etherum/ios-boost/framework",
+					"$(PROJECT_DIR)/External/etherum/ios-cryptopp/framework",
+					"$(PROJECT_DIR)/External/etherum/ios-gmp/framework",
+					"$(PROJECT_DIR)/External/etherum/ios-leveldb/framework",
+					"$(PROJECT_DIR)/External/etherum/ios-miniupnpc/framework",
+					"$(PROJECT_DIR)/External/etherum/ios-secp256k1/framework",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ios-alethzero/ios-alethzero-Prefix.pch";
 				INFOPLIST_FILE = "ios-alethzero/ios-alethzero-Info.plist";
@@ -459,6 +619,7 @@
 				059F30B5190D6D8C000CDD0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		059F30B6190D6D8C000CDD0C /* Build configuration list for PBXNativeTarget "ios-alethzeroTests" */ = {
 			isa = XCConfigurationList;
@@ -467,6 +628,7 @@
 				059F30B8190D6D8C000CDD0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
