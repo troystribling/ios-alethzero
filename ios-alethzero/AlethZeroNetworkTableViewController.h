@@ -10,4 +10,7 @@
 
 @interface AlethZeroNetworkTableViewController : UITableViewController
 
+@property(nonatomic, retain) IBOutlet UILabel*      peerAddressLabel;
+@property(nonatomic, retain) IBOutlet UIButton*     peerConnectButton;
+
 @end

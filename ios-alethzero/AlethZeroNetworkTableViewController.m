@@ -7,6 +7,8 @@
 //
 
 #import "AlethZeroNetworkTableViewController.h"
+#import "UIAlertView+Extensions.h"
+#import "ProgressView.h"
 
 @interface AlethZeroNetworkTableViewController ()
 
@@ -29,6 +31,15 @@
     [super didReceiveMemoryWarning];
 }
 
-#pragma mark - Table view data source
+- (BOOL)textFieldShouldReturn:(UITextField*)textField {
+    return YES;
+}
+
+#pragma mark - UIAlertViewDelegate -
+
+- (void)alertView:(UIAlertView*)alertView willDismissWithButtonIndex:(NSInteger)buttonIndex {
+    [self.navigationController popViewControllerAnimated:YES];
+}
+
 
 @end

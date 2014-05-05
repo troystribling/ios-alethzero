@@ -30,6 +30,10 @@
 		05BF059D1915638B00E45ED8 /* EthereumClient.mm in Sources */ = {isa = PBXBuildFile; fileRef = 05BF059C1915638B00E45ED8 /* EthereumClient.mm */; };
 		05BF059E191565BE00E45ED8 /* libethcore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 05BF057D19148CE000E45ED8 /* libethcore.a */; };
 		05BF059F191565C400E45ED8 /* libethereum.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 05BF057419148CCA00E45ED8 /* libethereum.a */; };
+		05BF05B41917D9B300E45ED8 /* ProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 05BF05AF1917D9B300E45ED8 /* ProgressView.m */; };
+		05BF05B51917D9B300E45ED8 /* TextBoxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 05BF05B11917D9B300E45ED8 /* TextBoxView.m */; };
+		05BF05B61917D9B300E45ED8 /* UIAlertView+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 05BF05B31917D9B300E45ED8 /* UIAlertView+Extensions.m */; };
+		05BF05BA1917E37300E45ED8 /* AlethZeroPeerAddressTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05BF05B91917E37300E45ED8 /* AlethZeroPeerAddressTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -116,6 +120,14 @@
 		05BF059C1915638B00E45ED8 /* EthereumClient.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = EthereumClient.mm; sourceTree = "<group>"; };
 		05BF05A119157AB400E45ED8 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
 		05BF05A419157D7A00E45ED8 /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		05BF05AE1917D9B300E45ED8 /* ProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressView.h; sourceTree = "<group>"; };
+		05BF05AF1917D9B300E45ED8 /* ProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressView.m; sourceTree = "<group>"; };
+		05BF05B01917D9B300E45ED8 /* TextBoxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextBoxView.h; sourceTree = "<group>"; };
+		05BF05B11917D9B300E45ED8 /* TextBoxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextBoxView.m; sourceTree = "<group>"; };
+		05BF05B21917D9B300E45ED8 /* UIAlertView+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+Extensions.h"; sourceTree = "<group>"; };
+		05BF05B31917D9B300E45ED8 /* UIAlertView+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+Extensions.m"; sourceTree = "<group>"; };
+		05BF05B81917E37300E45ED8 /* AlethZeroPeerAddressTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlethZeroPeerAddressTableViewController.h; sourceTree = "<group>"; };
+		05BF05B91917E37300E45ED8 /* AlethZeroPeerAddressTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlethZeroPeerAddressTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,6 +205,7 @@
 		059F3087190D6D8C000CDD0C /* ios-alethzero */ = {
 			isa = PBXGroup;
 			children = (
+				05BF05AD1917D9A300E45ED8 /* Library */,
 				05BF059A1915636000E45ED8 /* Etherium */,
 				05BF05981915600100E45ED8 /* Controllers */,
 				059F309C190D6D8C000CDD0C /* Images.xcassets */,
@@ -256,6 +269,8 @@
 				059F3091190D6D8C000CDD0C /* AlethZeroAppDelegate.m */,
 				059F30B9190F4911000CDD0C /* AlethZeroNetworkTableViewController.h */,
 				059F30BA190F4911000CDD0C /* AlethZeroNetworkTableViewController.m */,
+				05BF05B81917E37300E45ED8 /* AlethZeroPeerAddressTableViewController.h */,
+				05BF05B91917E37300E45ED8 /* AlethZeroPeerAddressTableViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -267,6 +282,19 @@
 				05BF059C1915638B00E45ED8 /* EthereumClient.mm */,
 			);
 			path = Etherium;
+			sourceTree = "<group>";
+		};
+		05BF05AD1917D9A300E45ED8 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				05BF05AE1917D9B300E45ED8 /* ProgressView.h */,
+				05BF05AF1917D9B300E45ED8 /* ProgressView.m */,
+				05BF05B01917D9B300E45ED8 /* TextBoxView.h */,
+				05BF05B11917D9B300E45ED8 /* TextBoxView.m */,
+				05BF05B21917D9B300E45ED8 /* UIAlertView+Extensions.h */,
+				05BF05B31917D9B300E45ED8 /* UIAlertView+Extensions.m */,
+			);
+			name = Library;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -413,7 +441,11 @@
 				059F308E190D6D8C000CDD0C /* main.m in Sources */,
 				05BF059D1915638B00E45ED8 /* EthereumClient.mm in Sources */,
 				059F30BB190F4911000CDD0C /* AlethZeroNetworkTableViewController.m in Sources */,
+				05BF05BA1917E37300E45ED8 /* AlethZeroPeerAddressTableViewController.m in Sources */,
+				05BF05B51917D9B300E45ED8 /* TextBoxView.m in Sources */,
 				059F3092190D6D8C000CDD0C /* AlethZeroAppDelegate.m in Sources */,
+				05BF05B41917D9B300E45ED8 /* ProgressView.m in Sources */,
+				05BF05B61917D9B300E45ED8 /* UIAlertView+Extensions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
