@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AlethZeroPeerAddressTableViewController : UITableViewController <UITextFieldDelegate, UIAlertViewDelegate>
+@interface AlethZeroPeerAddressTableViewController : UITableViewController <UITextFieldDelegate>
 
 @property(nonatomic, retain) IBOutlet UITextField*      peerAddressTextField;
 @property(nonatomic, retain) IBOutlet UITextField*      peerAddressPortTextField;

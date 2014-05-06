@@ -31,7 +31,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <sections>
-                            <tableViewSection headerTitle="Peer Address" id="0bq-Wt-Iwh">
+                            <tableViewSection headerTitle="Peer" id="0bq-Wt-Iwh">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="gray" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="55" id="0od-sN-YG6">
                                         <rect key="frame" x="0.0" y="119" width="320" height="55"/>
@@ -53,21 +53,28 @@
                                             <segue destination="FCc-jA-ihm" kind="push" id="c1L-uu-fTi"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="55" id="DWs-Dw-mVj" customClass="AlethZeroPeerConnectionCell">
-                                        <rect key="frame" x="0.0" y="174" width="320" height="55"/>
+                                </cells>
+                            </tableViewSection>
+                            <tableViewSection id="Odw-XJ-FJj">
+                                <cells>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="55" id="erI-6m-yvg">
+                                        <rect key="frame" x="0.0" y="194" width="320" height="55"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="DWs-Dw-mVj" id="qZT-D7-dLp">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="erI-6m-yvg" id="Gdr-lt-1Do">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="54"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pmn-F4-eAx">
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SU6-nx-Se7">
                                                     <rect key="frame" x="20" y="11" width="280" height="30"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="22"/>
                                                     <state key="normal" title="Connect">
-                                                        <color key="titleColor" red="0.84825501820000004" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <color key="titleColor" red="0.09967242372" green="0.6979025136" blue="0.34602870769999999" alpha="1" colorSpace="calibratedRGB"/>
                                                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                     </state>
+                                                    <connections>
+                                                        <action selector="connectToPeer" destination="Xld-5I-kGs" eventType="editingDidEndOnExit" id="sdG-DQ-H8R"/>
+                                                    </connections>
                                                 </button>
                                             </subviews>
                                         </tableViewCellContentView>
@@ -83,7 +90,7 @@
                     <navigationItem key="navigationItem" title="Network" id="gLD-Vb-dzM"/>
                     <connections>
                         <outlet property="peerAddressLabel" destination="qzy-6q-wIl" id="3hc-ub-nln"/>
-                        <outlet property="peerConnectButton" destination="Pmn-F4-eAx" id="o3d-nd-Xf9"/>
+                        <outlet property="peerConnectButton" destination="SU6-nx-Se7" id="qX6-Qy-0xj"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="enG-FJ-pKP" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -101,39 +108,39 @@
                         <sections>
                             <tableViewSection id="I9U-oK-JeW">
                                 <cells>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="NKC-8s-cJd">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="NKC-8s-cJd">
                                         <rect key="frame" x="0.0" y="99" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="NKC-8s-cJd" id="MTK-Er-kfx">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Peer Address" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="m5q-EJ-Ypz">
+                                                <textField opaque="NO" clipsSubviews="YES" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Peer Address" textAlignment="center" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="m5q-EJ-Ypz">
                                                     <rect key="frame" x="20" y="7" width="280" height="30"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="21"/>
-                                                    <textInputTraits key="textInputTraits"/>
+                                                    <textInputTraits key="textInputTraits" autocorrectionType="no"/>
                                                     <connections>
-                                                        <outlet property="delegate" destination="iKY-F1-DgY" id="Olr-Ig-ck4"/>
+                                                        <outlet property="delegate" destination="FCc-jA-ihm" id="gM4-qb-hkX"/>
                                                     </connections>
                                                 </textField>
                                             </subviews>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="HDe-X3-lMx">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="HDe-X3-lMx">
                                         <rect key="frame" x="0.0" y="143" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="HDe-X3-lMx" id="c8P-jZ-59A">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Port" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Aax-Ta-pc9">
+                                                <textField opaque="NO" clipsSubviews="YES" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Port" textAlignment="center" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="Aax-Ta-pc9">
                                                     <rect key="frame" x="20" y="7" width="280" height="30"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="21"/>
-                                                    <textInputTraits key="textInputTraits"/>
+                                                    <textInputTraits key="textInputTraits" autocorrectionType="no"/>
                                                     <connections>
-                                                        <outlet property="delegate" destination="iKY-F1-DgY" id="REx-82-pdJ"/>
+                                                        <outlet property="delegate" destination="FCc-jA-ihm" id="Y6d-T9-QX7"/>
                                                     </connections>
                                                 </textField>
                                             </subviews>
@@ -149,8 +156,8 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="Peer Address" id="3vc-dY-USi"/>
                     <connections>
-                        <outlet property="peerAddressPortTextField" destination="m5q-EJ-Ypz" id="rto-ok-hN3"/>
-                        <outlet property="peerAddressTextField" destination="Aax-Ta-pc9" id="Q17-4n-UkC"/>
+                        <outlet property="peerAddressPortTextField" destination="Aax-Ta-pc9" id="gp5-4T-K0v"/>
+                        <outlet property="peerAddressTextField" destination="m5q-EJ-Ypz" id="7h3-E4-vzC"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZeV-G2-gN4" userLabel="First Responder" sceneMemberID="firstResponder"/>

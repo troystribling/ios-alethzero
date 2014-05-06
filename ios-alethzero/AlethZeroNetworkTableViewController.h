@@ -8,9 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AlethZeroNetworkTableViewController : UITableViewController
+@interface AlethZeroNetworkTableViewController : UITableViewController <UIAlertViewDelegate>
 
 @property(nonatomic, retain) IBOutlet UILabel*      peerAddressLabel;
 @property(nonatomic, retain) IBOutlet UIButton*     peerConnectButton;
+
+- (IBAction)connectToPeer;
 
 @end

@@ -34,6 +34,7 @@
 		05BF05B51917D9B300E45ED8 /* TextBoxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 05BF05B11917D9B300E45ED8 /* TextBoxView.m */; };
 		05BF05B61917D9B300E45ED8 /* UIAlertView+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 05BF05B31917D9B300E45ED8 /* UIAlertView+Extensions.m */; };
 		05BF05BA1917E37300E45ED8 /* AlethZeroPeerAddressTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05BF05B91917E37300E45ED8 /* AlethZeroPeerAddressTableViewController.m */; };
+		05BF05BD1918805600E45ED8 /* AlethZeroConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 05BF05BC1918805600E45ED8 /* AlethZeroConfiguration.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -108,6 +109,7 @@
 		059F30AF190D6D8C000CDD0C /* ios_alethzeroTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ios_alethzeroTests.m; sourceTree = "<group>"; };
 		059F30B9190F4911000CDD0C /* AlethZeroNetworkTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlethZeroNetworkTableViewController.h; sourceTree = "<group>"; };
 		059F30BA190F4911000CDD0C /* AlethZeroNetworkTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlethZeroNetworkTableViewController.m; sourceTree = "<group>"; };
+		05AB4044191928B00042DBA5 /* DebugLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebugLog.h; sourceTree = "<group>"; };
 		05BF056D19148CC900E45ED8 /* ethereum.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ethereum.xcodeproj; path = External/etherum/Xcode/ethereum/ethereum.xcodeproj; sourceTree = "<group>"; };
 		05BF057719148CE000E45ED8 /* ethcore.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ethcore.xcodeproj; path = External/etherum/Xcode/ethcore/ethcore.xcodeproj; sourceTree = "<group>"; };
 		05BF058C1914ACA900E45ED8 /* boost.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = boost.framework; path = "External/etherum/ios-boost/framework/boost.framework"; sourceTree = "<group>"; };
@@ -128,6 +130,8 @@
 		05BF05B31917D9B300E45ED8 /* UIAlertView+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+Extensions.m"; sourceTree = "<group>"; };
 		05BF05B81917E37300E45ED8 /* AlethZeroPeerAddressTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlethZeroPeerAddressTableViewController.h; sourceTree = "<group>"; };
 		05BF05B91917E37300E45ED8 /* AlethZeroPeerAddressTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlethZeroPeerAddressTableViewController.m; sourceTree = "<group>"; };
+		05BF05BB1918805600E45ED8 /* AlethZeroConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlethZeroConfiguration.h; sourceTree = "<group>"; };
+		05BF05BC1918805600E45ED8 /* AlethZeroConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlethZeroConfiguration.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -267,6 +271,8 @@
 			children = (
 				059F3090190D6D8C000CDD0C /* AlethZeroAppDelegate.h */,
 				059F3091190D6D8C000CDD0C /* AlethZeroAppDelegate.m */,
+				05BF05BB1918805600E45ED8 /* AlethZeroConfiguration.h */,
+				05BF05BC1918805600E45ED8 /* AlethZeroConfiguration.m */,
 				059F30B9190F4911000CDD0C /* AlethZeroNetworkTableViewController.h */,
 				059F30BA190F4911000CDD0C /* AlethZeroNetworkTableViewController.m */,
 				05BF05B81917E37300E45ED8 /* AlethZeroPeerAddressTableViewController.h */,
@@ -287,6 +293,7 @@
 		05BF05AD1917D9A300E45ED8 /* Library */ = {
 			isa = PBXGroup;
 			children = (
+				05AB4044191928B00042DBA5 /* DebugLog.h */,
 				05BF05AE1917D9B300E45ED8 /* ProgressView.h */,
 				05BF05AF1917D9B300E45ED8 /* ProgressView.m */,
 				05BF05B01917D9B300E45ED8 /* TextBoxView.h */,
@@ -439,6 +446,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				059F308E190D6D8C000CDD0C /* main.m in Sources */,
+				05BF05BD1918805600E45ED8 /* AlethZeroConfiguration.m in Sources */,
 				05BF059D1915638B00E45ED8 /* EthereumClient.mm in Sources */,
 				059F30BB190F4911000CDD0C /* AlethZeroNetworkTableViewController.m in Sources */,
 				05BF05BA1917E37300E45ED8 /* AlethZeroPeerAddressTableViewController.m in Sources */,
