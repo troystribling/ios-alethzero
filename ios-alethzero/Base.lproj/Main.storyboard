@@ -73,7 +73,7 @@
                                                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                     </state>
                                                     <connections>
-                                                        <action selector="connectToPeer" destination="Xld-5I-kGs" eventType="editingDidEndOnExit" id="sdG-DQ-H8R"/>
+                                                        <action selector="connectToPeer:" destination="Xld-5I-kGs" eventType="touchUpInside" id="4aq-lO-xHw"/>
                                                     </connections>
                                                 </button>
                                             </subviews>

@@ -7,10 +7,17 @@
 //
 
 #import "AlethZeroAppDelegate.h"
+#import "EthereumClient.h"
 
 @implementation AlethZeroAppDelegate
 
++ (EthereumClient*)client {
+    AlethZeroAppDelegate* appDelegate = [[UIApplication sharedApplication] delegate];
+    return appDelegate.client;
+}
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    self.client = [EthereumClient createWithName:@"Alethzero"];
     return YES;
 }
 							

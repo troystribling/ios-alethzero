@@ -13,6 +13,6 @@
 @property(nonatomic, retain) IBOutlet UILabel*      peerAddressLabel;
 @property(nonatomic, retain) IBOutlet UIButton*     peerConnectButton;
 
-- (IBAction)connectToPeer;
+- (IBAction)connectToPeer:(id)sender;
 
 @end

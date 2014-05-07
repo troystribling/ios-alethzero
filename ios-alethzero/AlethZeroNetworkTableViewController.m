@@ -10,6 +10,8 @@
 #import "UIAlertView+Extensions.h"
 #import "ProgressView.h"
 #import "AlethZeroConfiguration.h"
+#import "AlethZeroAppDelegate.h"
+#import "EthereumClient.h"
 #import "DebugLog.h"
 
 @interface AlethZeroNetworkTableViewController ()
@@ -42,10 +44,12 @@
     [super didReceiveMemoryWarning];
 }
 
-- (IBAction)connectToPeer {
+- (IBAction)connectToPeer:(id)sender {
     NSString* address = [AlethZeroConfiguration getPeerAddress];
     NSString* port = [AlethZeroConfiguration getPeerAddressPort];
     DLog(@"Connecting to %@:%@", address, port);
+    EthereumClient* client = [AlethZeroAppDelegate client];
+    [client connectToPeerAddress:address atPort:port];
 }
 
 #pragma mark - Private -
@@ -61,8 +65,6 @@
 }
 
 - (void)setConnectionButtonLabel {
-    NSString* address = [AlethZeroConfiguration getPeerAddress];
-    NSString* port = [AlethZeroConfiguration getPeerAddressPort];
 }
 
 - (void)setPeerAddress {

@@ -8,8 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
+@class EthereumClient;
+
 @interface AlethZeroAppDelegate : UIResponder <UIApplicationDelegate>
 
-@property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) EthereumClient*   client;
+@property (strong, nonatomic) UIWindow*         window;
+
++ (EthereumClient*)client;
 
 @end

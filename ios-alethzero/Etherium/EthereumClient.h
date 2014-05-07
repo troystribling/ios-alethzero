@@ -10,4 +10,9 @@
 
 @interface EthereumClient : NSObject
 
++ (id)createWithName:(NSString*)a_name;
+- (id)initWithName:(NSString*)a_name;
+
+- (void)connectToPeerAddress:(NSString*)a_address atPort:(NSString*)a_port;
+
 @end
