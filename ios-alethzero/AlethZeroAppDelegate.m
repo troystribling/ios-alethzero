@@ -17,7 +17,8 @@
 }
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    self.client = [EthereumClient createWithName:@"Alethzero"];
+    NSString* clientVersion = [NSString stringWithFormat:@"iOS-Alethzero/%@/iOS/clang++", @"0.5.1"];
+    self.client = [EthereumClient createWithName:clientVersion];
     return YES;
 }
 							

@@ -15,9 +15,6 @@ using namespace eth;
     std::unique_ptr<eth::Client>    client;
 }
 
-- (void)startNetwork;
-- (void)setClientVersion;
-
 @end
 
 @implementation EthereumClient
@@ -37,19 +34,14 @@ using namespace eth;
 - (void)connectToPeerAddress:(NSString*)a_address atPort:(NSString*)a_port {
     uint16_t port = (uint16_t)[a_port integerValue];
     string address([a_address UTF8String]);
+    client->startNetwork(port, string(), 0, NodeMode::Full, 5, string(), true);
     client->connect(address, port);
 }
 
+- (void)disconnect {
+    client->startNetwork();
+}
+
 #pragma mark - Private -
-
-- (void)startNetwork {
-}
-
-- (void)setClientVersion {
-//    string n = "iOS-AlethZero/v" ETH_QUOTED(ETH_VERSION);
-//	if (ui->clientName->text().size())
-//		n += "/" + ui->clientName->text().toStdString();
-//	n +=  "/" ETH_QUOTED(ETH_BUILD_TYPE) "/" ETH_QUOTED(ETH_BUILD_PLATFORM);
-}
 
 @end
