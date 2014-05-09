@@ -47,9 +47,15 @@
 - (IBAction)connectToPeer:(id)sender {
     NSString* address = [AlethZeroConfiguration getPeerAddress];
     NSString* port = [AlethZeroConfiguration getPeerAddressPort];
-    DLog(@"Connecting to %@:%@", address, port);
     EthereumClient* client = [AlethZeroAppDelegate client];
-    [client connectToPeerAddress:address atPort:port];
+    if ([client connected]) {
+        DLog(@"Disconnecting");
+        [client disconnect];
+    } else {
+        DLog(@"Connecting to %@:%@", address, port);
+        [client connectToPeerAddress:address atPort:port];
+    }
+    [self setConnectionButtonLabel];
 }
 
 #pragma mark - Private -
@@ -65,6 +71,14 @@
 }
 
 - (void)setConnectionButtonLabel {
+    EthereumClient* client = [AlethZeroAppDelegate client];
+    if ([client connected]) {
+        [self.peerConnectButton setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
+        [self.peerConnectButton setTitle:@"Disconnect" forState:UIControlStateNormal];
+    } else {
+        [self.peerConnectButton setTitleColor:[UIColor greenColor] forState:UIControlStateNormal];
+        [self.peerConnectButton setTitle:@"Connect" forState:UIControlStateNormal];
+    }
 }
 
 - (void)setPeerAddress {

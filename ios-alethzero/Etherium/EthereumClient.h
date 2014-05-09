@@ -14,6 +14,7 @@
 - (id)initWithName:(NSString*)a_name;
 
 - (void)connectToPeerAddress:(NSString*)a_address atPort:(NSString*)a_port;
+- (BOOL)connected;
 - (void)disconnect;
 
 @end
